@@ -1,0 +1,14 @@
+<div class="card m-3" >
+    <img [src]= data.image class="card-img-top" alt="..." width="100%">
+    <div class="card-body">
+      <h5 class="card-title">{{data.cardTitle}}</h5>
+      <p class="card-text">{{data.cardText}}</p>
+      <div class="d-flex">
+
+        <button (click)="increment()">+</button>
+        <div class="border">{{counter}}</div>
+        
+        <button (click)="decrement()">-</button>
+      </div>
+    </div>
+  </div>

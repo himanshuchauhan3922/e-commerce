@@ -1,0 +1,17 @@
+.card{
+    // width: 40%;
+    
+}
+.tab-pane.show{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    margin: 0 20px;
+    
+}
+@media screen and (max-width:800px){
+    .card{
+        width: 100%;
+    }
+}
