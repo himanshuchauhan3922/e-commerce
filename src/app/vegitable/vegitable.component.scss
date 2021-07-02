@@ -25,4 +25,11 @@
   }
   app-fruit {
       width: 40%;
+      margin-right: 30px;
   }
+
+  @media screen and (max-width:800px){
+    app-fruit{
+        width: 100%;
+    }
+}

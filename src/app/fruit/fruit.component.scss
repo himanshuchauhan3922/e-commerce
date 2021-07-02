@@ -1,6 +1,6 @@
 .card{
-    // width: 40%;
-    
+    width: 100%;
+    display: flex;
 }
 .tab-pane.show{
     display: flex;
@@ -13,5 +13,6 @@
 @media screen and (max-width:800px){
     .card{
         width: 100%;
+        flex-direction: column;
     }
 }
